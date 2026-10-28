@@ -1,0 +1,2 @@
+# Data model
+rule `{id,title,category,kind:'prohibited'|'required'|'fact',term,alt,status}`; draft `{id,title,type,text,status,findings[],comments[],updated}`; finding `{id,cat,sev,text,exp,rule,ev,sugg,state}`; comment `{by,at,text}`; revision `{id,draftId,title,at,note,status,snap,role}`. Findings and comments live inside drafts; revisions reference drafts by id. Assistant messages are component-local and not persisted.

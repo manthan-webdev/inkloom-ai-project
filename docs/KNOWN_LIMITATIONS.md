@@ -1,0 +1,2 @@
+# Known limitations
+No production backend; no real authentication/authorization (role switch simulated); rule-based audit, not AI; demo assistant, not an LLM; no independent verification of external facts; browser-local persistence only; no multi-user collaboration; no server-side audit trail; readability checks are simple heuristics (sentence length, all-caps) and there are no visual/contrast checks.
